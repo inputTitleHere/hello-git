@@ -15,6 +15,7 @@ public class HelloGit {
 		Cat cat = new Cat();
 		cat.meow();
 		System.out.println("BuG FixEs");
+		System.out.println("AnimalStuff");
 	}
 	
 	public void helloGitWelcome() {
