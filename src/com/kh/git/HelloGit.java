@@ -14,6 +14,8 @@ public class HelloGit {
 		dog.bark();
 		Cat cat = new Cat();
 		cat.meow();
+		
+		System.out.println("BugfixII");
 		System.out.println("BuG FixEs");
 		System.out.println("AnimalStuff");
 	}
