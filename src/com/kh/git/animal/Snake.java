@@ -5,4 +5,7 @@ public class Snake {
       System.out.println("Snake Run~~~");
       System.out.println("Another SNAKE");
     }
+    public void eat(){
+        system.out.println("Snake Eats");
+    }
 }
