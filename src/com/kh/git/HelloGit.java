@@ -1,19 +1,22 @@
 package com.kh.git;
 
+import com.kh.git.animal.Cat;
 import com.kh.git.animal.Dog;
 
 public class HelloGit {
 	
 	public static void main(String[] args) {
 		System.out.println("Hello GIT WORLD !");
-		new HelloGit().printFancyStuff();
+		new HelloGit().helloGitWelcome();
 		
 		// Dog 기능 추가.
 		Dog dog = new Dog();
 		dog.bark();
+		Cat cat = new Cat();
+		cat.meow();
 	}
 	
-	public void printFancyStuff() {
+	public void helloGitWelcome() {
 		System.out.println("깃! 허! 브!");
 	}
 }
